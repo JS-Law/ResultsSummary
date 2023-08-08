@@ -274,8 +274,8 @@ html{
     }
 
     .heading-one{
-        padding-top: 2%;
-        margin-bottom: -15px;
+        margin-top: 1%;
+        /* margin-bottom: -15px; */
         font-size: 18px;
     }
     .heading-two{
@@ -304,7 +304,7 @@ html{
 
     .container-summary{
         position: absolute;
-        top: 375px;
+        top: 53%;
         margin-right: -10px;
         margin-left: -10px;
         border-bottom-left-radius: 0px;
