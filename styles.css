@@ -257,14 +257,16 @@ html{
         width: 104%;
         margin-left: -1px;
         margin-top: -10px;
-        height: 410px;
+        height: 380px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        position: fixed;
+        top: 0;
     }
 
     .heading-one{
         margin-top: 15px;
-        padding-top: 30px;
+        padding-top: 0px;
         margin-bottom: -15px;
         font-size: 18px;
     }
@@ -297,8 +299,8 @@ html{
     }
     .results-summary{
         gap: 10px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
         padding-bottom: 4%;
     }
 
@@ -309,7 +311,9 @@ html{
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         box-shadow: none;
-        padding-bottom: 20%;    
+        padding-bottom: 20%;  
+        position: fixed; 
+        top: 400px;
     }
     .button{
         margin-top: 10px;
