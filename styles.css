@@ -247,26 +247,35 @@ html{
 
 /* MOBILE VERSON */
 @media (max-width: 610px){
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        margin: 0px;
+    }
     .container{
         display: flex;
         flex-direction: column;
-        width: 104%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .container-results{
-        width: 104%;
-        margin-left: -1px;
-        margin-top: -10px;
-        height: 380px;
+        width: 100%;
+        margin-left: 0px;
+        /* margin-top: -10px; */
+        height: auto;
+        min-height: 45%;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
-        position: fixed;
+        position: absolute;
         top: 0;
     }
 
     .heading-one{
-        margin-top: 15px;
-        padding-top: 0px;
+        padding-top: 2%;
         margin-bottom: -15px;
         font-size: 18px;
     }
@@ -276,15 +285,6 @@ html{
     .heading-one-summary{
         padding-top: 0px;
     }
-    /* .results{
-        margin-left: 105px;
-        margin-right: 105px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        border-radius: 50%;
-    } */
     .results{
         display: flex;
         justify-content: center;
@@ -292,10 +292,9 @@ html{
         width: 40vw;
         height: 40vw;
         border-radius: 50%;
-        /* padding-left: 20px; */
-        /* padding-right: 20px; */
         margin-left: 30%;
-        /* margin-right: 50%;    */
+        margin-top: 5%;
+
     }
     .results-summary{
         gap: 10px;
@@ -305,20 +304,23 @@ html{
     }
 
     .container-summary{
-        width: 103.75%;
+        position: absolute;
+        top: 400px;
         margin-right: -10px;
         margin-left: -10px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         box-shadow: none;
         padding-bottom: 20%;  
-        position: fixed; 
-        top: 400px;
+        /* position: fixed;  */
+        /* top: 400px; */
     }
     .button{
         margin-top: 10px;
     }
     .attribution{
         padding-top: 10%;
+        position: fixed;
+        bottom: 0;
     }
 }
